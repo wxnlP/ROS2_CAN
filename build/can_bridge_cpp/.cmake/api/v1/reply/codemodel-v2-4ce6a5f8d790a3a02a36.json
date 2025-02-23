@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-a4c7d6c3a867ecb29aa2.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "can_bridge_cpp",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "can_bridge_cpp_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-can_bridge_cpp_uninstall-3ecc071b570ef2d047eb.json",
+					"name" : "can_bridge_cpp_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "can_receiver_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-can_receiver_cpp-cda5be6a4a44ee246a54.json",
+					"name" : "can_receiver_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "can_sender_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-can_sender_cpp-329c02efad8240b397e9.json",
+					"name" : "can_sender_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-e3a0c6c8de1c3f32c7e4.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/sunrise/Robotic/build/can_bridge_cpp",
+		"source" : "/home/sunrise/Robotic/src/can_bridge_cpp"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

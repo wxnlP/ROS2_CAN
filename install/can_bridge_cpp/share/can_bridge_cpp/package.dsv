@@ -1,0 +1,8 @@
+source;share/can_bridge_cpp/hook/cmake_prefix_path.ps1
+source;share/can_bridge_cpp/hook/cmake_prefix_path.dsv
+source;share/can_bridge_cpp/hook/cmake_prefix_path.sh
+source;share/can_bridge_cpp/local_setup.bash
+source;share/can_bridge_cpp/local_setup.dsv
+source;share/can_bridge_cpp/local_setup.ps1
+source;share/can_bridge_cpp/local_setup.sh
+source;share/can_bridge_cpp/local_setup.zsh

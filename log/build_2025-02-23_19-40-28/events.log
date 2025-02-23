@@ -1,0 +1,253 @@
+[0.000000] (-) TimerEvent: {}
+[0.001179] (can_bridge_cpp) JobQueued: {'identifier': 'can_bridge_cpp', 'dependencies': OrderedDict()}
+[0.002291] (can_bridge_cpp) JobStarted: {'identifier': 'can_bridge_cpp'}
+[0.054044] (can_bridge_cpp) JobProgress: {'identifier': 'can_bridge_cpp', 'progress': 'cmake'}
+[0.058570] (can_bridge_cpp) JobProgress: {'identifier': 'can_bridge_cpp', 'progress': 'build'}
+[0.062607] (can_bridge_cpp) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/sunrise/Robotic/build/can_bridge_cpp', '--', '-j8', '-l8'], 'cwd': '/home/sunrise/Robotic/build/can_bridge_cpp', 'env': OrderedDict([('LANGUAGE', 'en_US.UTF-8'), ('USER', 'sunrise'), ('SSH_CLIENT', '192.168.10.241 62324 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/sunrise/.vscode-server/cli/servers/Stable-e54c774e0add60467559eb0d1e229c6452cf8447/server/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/hobot/lib:/app/lib:/app/pub/lib:/middleware/lib:/middleware/pub/lib:/usr/hobot/lib/sensor:/system/lib:/system/usr/lib:/lib:'), ('BROWSER', '/home/sunrise/.vscode-server/cli/servers/Stable-e54c774e0add60467559eb0d1e229c6452cf8447/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/sunrise'), ('TERM_PROGRAM_VERSION', '1.97.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-4ca59238-050b-470d-b0b8-6ea709c2d5e5.sock'), ('DEBUGPY_ADAPTER_ENDPOINTS', '/home/sunrise/.vscode-server/extensions/ms-python.debugpy-2025.0.1-linux-arm64/.noConfigDebugAdapterEndpoints/endpoint-29e3dd8f028a3a48.txt'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/sunrise/.vscode-server/cli/servers/Stable-e54c774e0add60467559eb0d1e229c6452cf8447/server/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/sunrise/.vscode-server/cli/servers/Stable-e54c774e0add60467559eb0d1e229c6452cf8447/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('BUNDLED_DEBUGPY_PATH', '/home/sunrise/.vscode-server/extensions/ms-python.debugpy-2025.0.1-linux-arm64/bundled/libs/debugpy'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'sunrise'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/sunrise/.vscode-server/cli/servers/Stable-e54c774e0add60467559eb0d1e229c6452cf8447/server/bin/remote-cli:/opt/ros/humble/bin:/usr/hobot/bin/:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/sunrise/.vscode-server/extensions/ms-python.debugpy-2025.0.1-linux-arm64/bundled/scripts/noConfigScripts'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-0f6035535f.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/sunrise/Robotic/build/can_bridge_cpp'), ('SSH_CONNECTION', '192.168.10.241 62324 192.168.10.189 22'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.099002] (-) TimerEvent: {}
+[0.199811] (-) TimerEvent: {}
+[0.300681] (-) TimerEvent: {}
+[0.401636] (-) TimerEvent: {}
+[0.502806] (-) TimerEvent: {}
+[0.584639] (can_bridge_cpp) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target can_receiver_cpp\x1b[0m\n'}
+[0.603001] (-) TimerEvent: {}
+[0.648311] (can_bridge_cpp) StdoutLine: {'line': b'[ 50%] Built target can_sender_cpp\n'}
+[0.680363] (can_bridge_cpp) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/can_receiver_cpp.dir/src/can_receiver.cpp.o\x1b[0m\n'}
+[0.703177] (-) TimerEvent: {}
+[0.804070] (-) TimerEvent: {}
+[0.904989] (-) TimerEvent: {}
+[1.005896] (-) TimerEvent: {}
+[1.106791] (-) TimerEvent: {}
+[1.207672] (-) TimerEvent: {}
+[1.308488] (-) TimerEvent: {}
+[1.409306] (-) TimerEvent: {}
+[1.510120] (-) TimerEvent: {}
+[1.610962] (-) TimerEvent: {}
+[1.711781] (-) TimerEvent: {}
+[1.812598] (-) TimerEvent: {}
+[1.913420] (-) TimerEvent: {}
+[2.014298] (-) TimerEvent: {}
+[2.115196] (-) TimerEvent: {}
+[2.216101] (-) TimerEvent: {}
+[2.317004] (-) TimerEvent: {}
+[2.417912] (-) TimerEvent: {}
+[2.518754] (-) TimerEvent: {}
+[2.619591] (-) TimerEvent: {}
+[2.720441] (-) TimerEvent: {}
+[2.821382] (-) TimerEvent: {}
+[2.922285] (-) TimerEvent: {}
+[3.023190] (-) TimerEvent: {}
+[3.124162] (-) TimerEvent: {}
+[3.225092] (-) TimerEvent: {}
+[3.325972] (-) TimerEvent: {}
+[3.426867] (-) TimerEvent: {}
+[3.527779] (-) TimerEvent: {}
+[3.628691] (-) TimerEvent: {}
+[3.729599] (-) TimerEvent: {}
+[3.830493] (-) TimerEvent: {}
+[3.931453] (-) TimerEvent: {}
+[4.032341] (-) TimerEvent: {}
+[4.133222] (-) TimerEvent: {}
+[4.234093] (-) TimerEvent: {}
+[4.335002] (-) TimerEvent: {}
+[4.435917] (-) TimerEvent: {}
+[4.536846] (-) TimerEvent: {}
+[4.637765] (-) TimerEvent: {}
+[4.738672] (-) TimerEvent: {}
+[4.839570] (-) TimerEvent: {}
+[4.940462] (-) TimerEvent: {}
+[5.041389] (-) TimerEvent: {}
+[5.142266] (-) TimerEvent: {}
+[5.243156] (-) TimerEvent: {}
+[5.344046] (-) TimerEvent: {}
+[5.444929] (-) TimerEvent: {}
+[5.545842] (-) TimerEvent: {}
+[5.646785] (-) TimerEvent: {}
+[5.747693] (-) TimerEvent: {}
+[5.855417] (-) TimerEvent: {}
+[5.956318] (-) TimerEvent: {}
+[6.057208] (-) TimerEvent: {}
+[6.158105] (-) TimerEvent: {}
+[6.258992] (-) TimerEvent: {}
+[6.359891] (-) TimerEvent: {}
+[6.460789] (-) TimerEvent: {}
+[6.561765] (-) TimerEvent: {}
+[6.662645] (-) TimerEvent: {}
+[6.763515] (-) TimerEvent: {}
+[6.864425] (-) TimerEvent: {}
+[6.965333] (-) TimerEvent: {}
+[7.066228] (-) TimerEvent: {}
+[7.167129] (-) TimerEvent: {}
+[7.268029] (-) TimerEvent: {}
+[7.368939] (-) TimerEvent: {}
+[7.469852] (-) TimerEvent: {}
+[7.570757] (-) TimerEvent: {}
+[7.671684] (-) TimerEvent: {}
+[7.772559] (-) TimerEvent: {}
+[7.873444] (-) TimerEvent: {}
+[7.974342] (-) TimerEvent: {}
+[8.075222] (-) TimerEvent: {}
+[8.176116] (-) TimerEvent: {}
+[8.277062] (-) TimerEvent: {}
+[8.378173] (-) TimerEvent: {}
+[8.479125] (-) TimerEvent: {}
+[8.580041] (-) TimerEvent: {}
+[8.680937] (-) TimerEvent: {}
+[8.781861] (-) TimerEvent: {}
+[8.882749] (-) TimerEvent: {}
+[8.983628] (-) TimerEvent: {}
+[9.084516] (-) TimerEvent: {}
+[9.185449] (-) TimerEvent: {}
+[9.286489] (-) TimerEvent: {}
+[9.387503] (-) TimerEvent: {}
+[9.488610] (-) TimerEvent: {}
+[9.589549] (-) TimerEvent: {}
+[9.690476] (-) TimerEvent: {}
+[9.791423] (-) TimerEvent: {}
+[9.892317] (-) TimerEvent: {}
+[9.993218] (-) TimerEvent: {}
+[10.094140] (-) TimerEvent: {}
+[10.195132] (-) TimerEvent: {}
+[10.296116] (-) TimerEvent: {}
+[10.397066] (-) TimerEvent: {}
+[10.498114] (-) TimerEvent: {}
+[10.599013] (-) TimerEvent: {}
+[10.699925] (-) TimerEvent: {}
+[10.800829] (-) TimerEvent: {}
+[10.901771] (-) TimerEvent: {}
+[11.002666] (-) TimerEvent: {}
+[11.103571] (-) TimerEvent: {}
+[11.204491] (-) TimerEvent: {}
+[11.305367] (-) TimerEvent: {}
+[11.406222] (-) TimerEvent: {}
+[11.507089] (-) TimerEvent: {}
+[11.607966] (-) TimerEvent: {}
+[11.708831] (-) TimerEvent: {}
+[11.809708] (-) TimerEvent: {}
+[11.910578] (-) TimerEvent: {}
+[12.011482] (-) TimerEvent: {}
+[12.112350] (-) TimerEvent: {}
+[12.213212] (-) TimerEvent: {}
+[12.314082] (-) TimerEvent: {}
+[12.414951] (-) TimerEvent: {}
+[12.515846] (-) TimerEvent: {}
+[12.616695] (-) TimerEvent: {}
+[12.717508] (-) TimerEvent: {}
+[12.818339] (-) TimerEvent: {}
+[12.919174] (-) TimerEvent: {}
+[13.019984] (-) TimerEvent: {}
+[13.120751] (-) TimerEvent: {}
+[13.221551] (-) TimerEvent: {}
+[13.322388] (-) TimerEvent: {}
+[13.423296] (-) TimerEvent: {}
+[13.524154] (-) TimerEvent: {}
+[13.625026] (-) TimerEvent: {}
+[13.725896] (-) TimerEvent: {}
+[13.826757] (-) TimerEvent: {}
+[13.927621] (-) TimerEvent: {}
+[14.028488] (-) TimerEvent: {}
+[14.129377] (-) TimerEvent: {}
+[14.230277] (-) TimerEvent: {}
+[14.331159] (-) TimerEvent: {}
+[14.432043] (-) TimerEvent: {}
+[14.532944] (-) TimerEvent: {}
+[14.633842] (-) TimerEvent: {}
+[14.734759] (-) TimerEvent: {}
+[14.835664] (-) TimerEvent: {}
+[14.936573] (-) TimerEvent: {}
+[15.037454] (-) TimerEvent: {}
+[15.138349] (-) TimerEvent: {}
+[15.239235] (-) TimerEvent: {}
+[15.340157] (-) TimerEvent: {}
+[15.441082] (-) TimerEvent: {}
+[15.541982] (-) TimerEvent: {}
+[15.642876] (-) TimerEvent: {}
+[15.743787] (-) TimerEvent: {}
+[15.844710] (-) TimerEvent: {}
+[15.945606] (-) TimerEvent: {}
+[16.046490] (-) TimerEvent: {}
+[16.147390] (-) TimerEvent: {}
+[16.248294] (-) TimerEvent: {}
+[16.349190] (-) TimerEvent: {}
+[16.450099] (-) TimerEvent: {}
+[16.551019] (-) TimerEvent: {}
+[16.651890] (-) TimerEvent: {}
+[16.752772] (-) TimerEvent: {}
+[16.853660] (-) TimerEvent: {}
+[16.954556] (-) TimerEvent: {}
+[17.055469] (-) TimerEvent: {}
+[17.156367] (-) TimerEvent: {}
+[17.257259] (-) TimerEvent: {}
+[17.358158] (-) TimerEvent: {}
+[17.459059] (-) TimerEvent: {}
+[17.559964] (-) TimerEvent: {}
+[17.660864] (-) TimerEvent: {}
+[17.761802] (-) TimerEvent: {}
+[17.862694] (-) TimerEvent: {}
+[17.963563] (-) TimerEvent: {}
+[18.064422] (-) TimerEvent: {}
+[18.165317] (-) TimerEvent: {}
+[18.266200] (-) TimerEvent: {}
+[18.367089] (-) TimerEvent: {}
+[18.468001] (-) TimerEvent: {}
+[18.568921] (-) TimerEvent: {}
+[18.669826] (-) TimerEvent: {}
+[18.770747] (-) TimerEvent: {}
+[18.871662] (-) TimerEvent: {}
+[18.972561] (-) TimerEvent: {}
+[19.073442] (-) TimerEvent: {}
+[19.174345] (-) TimerEvent: {}
+[19.275247] (-) TimerEvent: {}
+[19.376382] (-) TimerEvent: {}
+[19.477311] (-) TimerEvent: {}
+[19.578186] (-) TimerEvent: {}
+[19.679104] (-) TimerEvent: {}
+[19.684205] (can_bridge_cpp) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable can_receiver_cpp\x1b[0m\n'}
+[19.779316] (-) TimerEvent: {}
+[19.880248] (-) TimerEvent: {}
+[19.981273] (-) TimerEvent: {}
+[20.082502] (-) TimerEvent: {}
+[20.183475] (-) TimerEvent: {}
+[20.284476] (-) TimerEvent: {}
+[20.385494] (-) TimerEvent: {}
+[20.486409] (-) TimerEvent: {}
+[20.587307] (-) TimerEvent: {}
+[20.688277] (-) TimerEvent: {}
+[20.789213] (-) TimerEvent: {}
+[20.890102] (-) TimerEvent: {}
+[20.991005] (-) TimerEvent: {}
+[21.091866] (-) TimerEvent: {}
+[21.192763] (-) TimerEvent: {}
+[21.293642] (-) TimerEvent: {}
+[21.394537] (-) TimerEvent: {}
+[21.471032] (can_bridge_cpp) StdoutLine: {'line': b'[100%] Built target can_receiver_cpp\n'}
+[21.494720] (-) TimerEvent: {}
+[21.535986] (can_bridge_cpp) CommandEnded: {'returncode': 0}
+[21.547096] (can_bridge_cpp) JobProgress: {'identifier': 'can_bridge_cpp', 'progress': 'install'}
+[21.597111] (-) TimerEvent: {}
+[21.607844] (can_bridge_cpp) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/sunrise/Robotic/build/can_bridge_cpp'], 'cwd': '/home/sunrise/Robotic/build/can_bridge_cpp', 'env': OrderedDict([('LANGUAGE', 'en_US.UTF-8'), ('USER', 'sunrise'), ('SSH_CLIENT', '192.168.10.241 62324 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/sunrise/.vscode-server/cli/servers/Stable-e54c774e0add60467559eb0d1e229c6452cf8447/server/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/hobot/lib:/app/lib:/app/pub/lib:/middleware/lib:/middleware/pub/lib:/usr/hobot/lib/sensor:/system/lib:/system/usr/lib:/lib:'), ('BROWSER', '/home/sunrise/.vscode-server/cli/servers/Stable-e54c774e0add60467559eb0d1e229c6452cf8447/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/sunrise'), ('TERM_PROGRAM_VERSION', '1.97.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-4ca59238-050b-470d-b0b8-6ea709c2d5e5.sock'), ('DEBUGPY_ADAPTER_ENDPOINTS', '/home/sunrise/.vscode-server/extensions/ms-python.debugpy-2025.0.1-linux-arm64/.noConfigDebugAdapterEndpoints/endpoint-29e3dd8f028a3a48.txt'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/sunrise/.vscode-server/cli/servers/Stable-e54c774e0add60467559eb0d1e229c6452cf8447/server/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/sunrise/.vscode-server/cli/servers/Stable-e54c774e0add60467559eb0d1e229c6452cf8447/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('BUNDLED_DEBUGPY_PATH', '/home/sunrise/.vscode-server/extensions/ms-python.debugpy-2025.0.1-linux-arm64/bundled/libs/debugpy'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'sunrise'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/sunrise/.vscode-server/cli/servers/Stable-e54c774e0add60467559eb0d1e229c6452cf8447/server/bin/remote-cli:/opt/ros/humble/bin:/usr/hobot/bin/:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/sunrise/.vscode-server/extensions/ms-python.debugpy-2025.0.1-linux-arm64/bundled/scripts/noConfigScripts'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-0f6035535f.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/sunrise/Robotic/build/can_bridge_cpp'), ('SSH_CONNECTION', '192.168.10.241 62324 192.168.10.189 22'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[21.652996] (can_bridge_cpp) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[21.656295] (can_bridge_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/Robotic/install/can_bridge_cpp/lib/can_bridge_cpp/can_sender_cpp\n'}
+[21.659176] (can_bridge_cpp) StdoutLine: {'line': b'-- Installing: /home/sunrise/Robotic/install/can_bridge_cpp/lib/can_bridge_cpp/can_receiver_cpp\n'}
+[21.663321] (can_bridge_cpp) StdoutLine: {'line': b'-- Set runtime path of "/home/sunrise/Robotic/install/can_bridge_cpp/lib/can_bridge_cpp/can_receiver_cpp" to ""\n'}
+[21.664262] (can_bridge_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/Robotic/install/can_bridge_cpp/share/ament_index/resource_index/package_run_dependencies/can_bridge_cpp\n'}
+[21.665123] (can_bridge_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/Robotic/install/can_bridge_cpp/share/ament_index/resource_index/parent_prefix_path/can_bridge_cpp\n'}
+[21.665886] (can_bridge_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/Robotic/install/can_bridge_cpp/share/can_bridge_cpp/environment/ament_prefix_path.sh\n'}
+[21.666508] (can_bridge_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/Robotic/install/can_bridge_cpp/share/can_bridge_cpp/environment/ament_prefix_path.dsv\n'}
+[21.667078] (can_bridge_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/Robotic/install/can_bridge_cpp/share/can_bridge_cpp/environment/path.sh\n'}
+[21.667592] (can_bridge_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/Robotic/install/can_bridge_cpp/share/can_bridge_cpp/environment/path.dsv\n'}
+[21.668052] (can_bridge_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/Robotic/install/can_bridge_cpp/share/can_bridge_cpp/local_setup.bash\n'}
+[21.668509] (can_bridge_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/Robotic/install/can_bridge_cpp/share/can_bridge_cpp/local_setup.sh\n'}
+[21.668966] (can_bridge_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/Robotic/install/can_bridge_cpp/share/can_bridge_cpp/local_setup.zsh\n'}
+[21.669412] (can_bridge_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/Robotic/install/can_bridge_cpp/share/can_bridge_cpp/local_setup.dsv\n'}
+[21.669862] (can_bridge_cpp) StdoutLine: {'line': b'-- Installing: /home/sunrise/Robotic/install/can_bridge_cpp/share/can_bridge_cpp/package.dsv\n'}
+[21.672517] (can_bridge_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/Robotic/install/can_bridge_cpp/share/ament_index/resource_index/packages/can_bridge_cpp\n'}
+[21.673146] (can_bridge_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/Robotic/install/can_bridge_cpp/share/can_bridge_cpp/cmake/can_bridge_cppConfig.cmake\n'}
+[21.673624] (can_bridge_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/Robotic/install/can_bridge_cpp/share/can_bridge_cpp/cmake/can_bridge_cppConfig-version.cmake\n'}
+[21.674075] (can_bridge_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/Robotic/install/can_bridge_cpp/share/can_bridge_cpp/package.xml\n'}
+[21.683307] (can_bridge_cpp) CommandEnded: {'returncode': 0}
+[21.697391] (-) TimerEvent: {}
+[21.798251] (-) TimerEvent: {}
+[21.899064] (can_bridge_cpp) JobEnded: {'identifier': 'can_bridge_cpp', 'rc': 0}
+[21.902127] (-) TimerEvent: {}
+[21.902533] (-) EventReactorShutdown: {}

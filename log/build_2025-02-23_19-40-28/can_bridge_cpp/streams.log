@@ -1,0 +1,28 @@
+[0.063s] Invoking command in '/home/sunrise/Robotic/build/can_bridge_cpp': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/sunrise/Robotic/build/can_bridge_cpp -- -j8 -l8
+[0.582s] [35m[1mConsolidate compiler generated dependencies of target can_receiver_cpp[0m
+[0.646s] [ 50%] Built target can_sender_cpp
+[0.678s] [ 75%] [32mBuilding CXX object CMakeFiles/can_receiver_cpp.dir/src/can_receiver.cpp.o[0m
+[19.682s] [100%] [32m[1mLinking CXX executable can_receiver_cpp[0m
+[21.469s] [100%] Built target can_receiver_cpp
+[21.534s] Invoked command in '/home/sunrise/Robotic/build/can_bridge_cpp' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/sunrise/Robotic/build/can_bridge_cpp -- -j8 -l8
+[21.610s] Invoking command in '/home/sunrise/Robotic/build/can_bridge_cpp': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/sunrise/Robotic/build/can_bridge_cpp
+[21.651s] -- Install configuration: ""
+[21.654s] -- Up-to-date: /home/sunrise/Robotic/install/can_bridge_cpp/lib/can_bridge_cpp/can_sender_cpp
+[21.657s] -- Installing: /home/sunrise/Robotic/install/can_bridge_cpp/lib/can_bridge_cpp/can_receiver_cpp
+[21.661s] -- Set runtime path of "/home/sunrise/Robotic/install/can_bridge_cpp/lib/can_bridge_cpp/can_receiver_cpp" to ""
+[21.662s] -- Up-to-date: /home/sunrise/Robotic/install/can_bridge_cpp/share/ament_index/resource_index/package_run_dependencies/can_bridge_cpp
+[21.663s] -- Up-to-date: /home/sunrise/Robotic/install/can_bridge_cpp/share/ament_index/resource_index/parent_prefix_path/can_bridge_cpp
+[21.663s] -- Up-to-date: /home/sunrise/Robotic/install/can_bridge_cpp/share/can_bridge_cpp/environment/ament_prefix_path.sh
+[21.664s] -- Up-to-date: /home/sunrise/Robotic/install/can_bridge_cpp/share/can_bridge_cpp/environment/ament_prefix_path.dsv
+[21.665s] -- Up-to-date: /home/sunrise/Robotic/install/can_bridge_cpp/share/can_bridge_cpp/environment/path.sh
+[21.665s] -- Up-to-date: /home/sunrise/Robotic/install/can_bridge_cpp/share/can_bridge_cpp/environment/path.dsv
+[21.665s] -- Up-to-date: /home/sunrise/Robotic/install/can_bridge_cpp/share/can_bridge_cpp/local_setup.bash
+[21.666s] -- Up-to-date: /home/sunrise/Robotic/install/can_bridge_cpp/share/can_bridge_cpp/local_setup.sh
+[21.666s] -- Up-to-date: /home/sunrise/Robotic/install/can_bridge_cpp/share/can_bridge_cpp/local_setup.zsh
+[21.667s] -- Up-to-date: /home/sunrise/Robotic/install/can_bridge_cpp/share/can_bridge_cpp/local_setup.dsv
+[21.667s] -- Installing: /home/sunrise/Robotic/install/can_bridge_cpp/share/can_bridge_cpp/package.dsv
+[21.670s] -- Up-to-date: /home/sunrise/Robotic/install/can_bridge_cpp/share/ament_index/resource_index/packages/can_bridge_cpp
+[21.671s] -- Up-to-date: /home/sunrise/Robotic/install/can_bridge_cpp/share/can_bridge_cpp/cmake/can_bridge_cppConfig.cmake
+[21.671s] -- Up-to-date: /home/sunrise/Robotic/install/can_bridge_cpp/share/can_bridge_cpp/cmake/can_bridge_cppConfig-version.cmake
+[21.671s] -- Up-to-date: /home/sunrise/Robotic/install/can_bridge_cpp/share/can_bridge_cpp/package.xml
+[21.682s] Invoked command in '/home/sunrise/Robotic/build/can_bridge_cpp' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/sunrise/Robotic/build/can_bridge_cpp
